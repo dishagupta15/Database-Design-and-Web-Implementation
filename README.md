@@ -1,2 +1,3 @@
-# Database-Design-and-Web-Implementation
-NYU Database Design and Web Implementation (CSCI 60) Spring 2017
+# Database Design and Web Implementation
+
+Assignment's from NYU's Database Design and Web Implementation (CSCI 60) course from Spring 2017.
