@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+	<head>
+		<title>Tweets Search</title>
+
+		<link rel="stylesheet" href="tweets.css" type="text/css">
+
+	</head>
+
+	<body>
+		<h3>Tweets Search</h3>
+
+		<form method="post" action="tweets.php">
+			<select name="sort_by">
+				<option value="handle">User</option>
+				<option value="retweet_count">Retweet Count</option>
+				<option value="favorite_count">Favorite Count</option>
+			</select>
+			<input type="submit" value="Search">
+		</form>
+
+		<p>
+			The data for this website came from <a href="https://www.kaggle.com/benhamner/clinton-trump-tweets">this</a> site. This dataset
+			contains Hillary Clinton and Donald Trump's tweets from January 2016 until September 2016. This time period captures their tweets from
+			the primary's to the height of the election. The data aims to show the national response to Clinton's and Trump's online messages. This data
+			can be used in different analyses of how social media affected the 2016 election. Social media platforms, specifically Twitter, had a 
+			significant impact on the canditates reputation during the campaign trail and until election night. The dataset contains over 6,000 entries, but only the top 50 are ever displayed.
+
+			<br>
+			<br>
+
+			<img src="http://www.thesetonian.com/wp-content/uploads/2016/11/Setonian-Volume-93-Issue-9-Front-Page-Trump-Clinton-Cutout.png" 
+			alt="Clinton and Trump" style="width:1250px; height:300px; padding:10px;">
+		</p>
+
+	</body>
+
+</html>
