@@ -1,0 +1,51 @@
+body {
+	color 			: #000;
+}
+
+#hillary_pie {
+	padding-top 	: 25px;
+}
+
+#hillary_pie_text {
+	padding-top 	: 85px;
+}
+
+#donald_pie {
+	padding-top 	: 85px;
+}
+
+#donald_pie_text {
+	padding-top 	: 135px;
+}
+
+#rts {
+	padding-top 	: 70px;
+}
+
+#rts_text {
+	padding-top 	: 155px;
+}
+
+#favs {
+	padding-top 	: 145px;
+}
+
+#favs_text {
+	padding-top 	: 235px;
+}
+
+a:link {
+	color 			: #000;
+}
+
+a:visited {
+	color 			: #B47BD5;
+}
+
+a:hover {
+	color 			: #A760D0;
+}
+
+a:active {
+	color 			: #A760D0;
+}
