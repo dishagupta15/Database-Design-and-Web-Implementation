@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Clinton and Trump Tweets</title>
+		<link rel="stylesheet" href="tweets.css" type="text/css">
+	</head>
+
+	<body>
+		<h3>Hillary Clinton and Donald Trump Tweets (January 2016 to September 2016)</h3>
+		<hr>
+
+		<form action="tweets.py" method="POST">
+			<p>Select whose tweets you would like to see:</p>
+				<select name="author">
+					<option>HillaryClinton</option>
+					<option>realDonaldTrump</option>
+				</select>
+
+			<p>Select the lowest 15 favorited tweets or the top 15 favorited tweets:</p>
+				<select name="favorites">
+					<option>Lowest 15 Tweets</option>
+					<option>Highest 15 Tweets</option>
+				</select>
+			<hr>
+			<p>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</p>
+		</form>
+
+	</body>
+
+</html>
